@@ -1,0 +1,186 @@
+/* ══════════════════════════════════
+   LimpioHogar — Responsive Styles
+   Breakpoint: 768px
+   ══════════════════════════════════ */
+
+@media (max-width: 768px) {
+  /* ─── Navbar ─── */
+  .navbar__links {
+    display: none;
+  }
+
+  .navbar__cta {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  /* ─── Hero ─── */
+  .hero {
+    padding-top: calc(var(--navbar-height) + 24px);
+    padding-bottom: 48px;
+  }
+
+  .hero__grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .hero__title {
+    font-size: 2.25rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+
+  .hero__buttons {
+    flex-direction: column;
+  }
+
+  .hero__buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero__image {
+    height: 280px;
+  }
+
+  /* ─── Section titles ─── */
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  /* ─── Como Funciona ─── */
+  .como-funciona {
+    padding: 48px 0;
+  }
+
+  .como-funciona__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  /* ─── Mision y Vision ─── */
+  .mision-vision {
+    padding: 48px 0;
+  }
+
+  .mision-vision__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .mv-card {
+    padding: 32px;
+  }
+
+  .mv-card__title {
+    font-size: 1.5rem;
+  }
+
+  /* ─── Precios ─── */
+  .precios {
+    padding: 48px 0;
+  }
+
+  .precios__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .precio-card--featured {
+    transform: none;
+  }
+
+  .precio-card--featured:hover {
+    transform: none;
+  }
+
+  .precio-card {
+    padding: 32px 24px;
+  }
+
+  .precio-card__price {
+    font-size: 2.25rem;
+  }
+
+  /* ─── Trabaja ─── */
+  .trabaja {
+    padding: 48px 0;
+  }
+
+  .trabaja__form-wrap {
+    padding: 24px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  /* ─── Contacto ─── */
+  .contacto {
+    padding: 48px 0;
+  }
+
+  .contacto__grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .contacto__form {
+    padding: 24px;
+  }
+
+  /* ─── Footer ─── */
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .footer__grid > div:first-child {
+    grid-column: 1 / -1;
+  }
+
+  /* ─── WhatsApp button ─── */
+  .whatsapp-float {
+    width: 52px;
+    height: 52px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .whatsapp-float svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .hero__title {
+    font-size: 1.875rem;
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__grid > div:first-child {
+    grid-column: 1;
+  }
+}

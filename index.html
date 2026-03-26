@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LimpioHogar - Servicio de Aseo Profesional en Santiago Chile</title>
+  <meta name="description" content="Agencia de aseo domiciliario en Chile. Conectamos hogares y oficinas con trabajadoras de confianza. Plan Básico desde $35.000.">
+  <meta name="keywords" content="servicio aseo Santiago, limpieza domicilio Chile, trabajadora aseo, limpieza hogar">
+  <meta property="og:title" content="LimpioHogar - Aseo Profesional en Chile">
+  <meta property="og:description" content="Conectamos hogares con trabajadoras de aseo de confianza.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.limpiohogar.cl">
+  <link rel="canonical" href="https://www.limpiohogar.cl">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#" class="navbar__logo">
+        <!-- Sparkle/Star SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+          <path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/>
+        </svg>
+        <span>LimpioHogar</span>
+      </a>
+
+      <div class="navbar__links">
+        <a href="#servicios">Servicios</a>
+        <a href="#como-funciona">Cómo Funciona</a>
+        <a href="#precios">Precios</a>
+        <a href="#trabaja">Trabaja con Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <div class="navbar__cta">
+        <a href="#contacto" class="btn btn--accent">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+          Contactar
+        </a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#servicios">Servicios</a>
+      <a href="#como-funciona">Cómo Funciona</a>
+      <a href="#precios">Precios</a>
+      <a href="#trabaja">Trabaja con Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <div class="fade-in">
+          <h1 class="hero__title">
+            Tu hogar impecable,
+            <span class="accent">sin esfuerzo</span>
+          </h1>
+          <p class="hero__subtitle">Servicios profesionales de aseo doméstico en Chile. Confianza, calidad y dedicación para tu hogar.</p>
+          <div class="hero__buttons">
+            <a href="https://wa.me/56947951646?text=Hola%20LimpioHogar%2C%20quiero%20solicitar%20informaci%C3%B3n" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+              Cotizar por WhatsApp
+            </a>
+            <a href="#precios" class="btn btn--outline">Ver Precios</a>
+          </div>
+        </div>
+        <div class="hero__image fade-in">
+          <img src="https://images.unsplash.com/photo-1649083047156-e968b917df6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGVhbiUyMG1vZGVybiUyMGhvbWUlMjBpbnRlcmlvcnxlbnwxfHx8fDE3NzQxODQzMjV8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Hogar limpio y moderno" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ COMO FUNCIONA ═══════════════ -->
+  <section class="como-funciona" id="como-funciona">
+    <div class="container">
+      <div style="text-align:center;" class="fade-in">
+        <h2 class="section-title">¿Cómo funciona?</h2>
+        <p class="section-subtitle">Simple, rápido y efectivo</p>
+      </div>
+      <div class="como-funciona__grid">
+        <!-- Paso 1 -->
+        <div class="step fade-in">
+          <div class="step__icon-wrap">
+            <div class="step__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+            </div>
+            <div class="step__number">1</div>
+          </div>
+          <h3 class="step__title">Contáctanos</h3>
+          <p class="step__desc">Escríbenos por WhatsApp o completa nuestro formulario. Te responderemos en minutos.</p>
+        </div>
+        <!-- Paso 2 -->
+        <div class="step fade-in">
+          <div class="step__icon-wrap">
+            <div class="step__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+            </div>
+            <div class="step__number">2</div>
+          </div>
+          <h3 class="step__title">Agenda tu servicio</h3>
+          <p class="step__desc">Elige fecha, hora y tipo de servicio. Nos adaptamos a tu horario.</p>
+        </div>
+        <!-- Paso 3 -->
+        <div class="step fade-in">
+          <div class="step__icon-wrap">
+            <div class="step__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div class="step__number">3</div>
+          </div>
+          <h3 class="step__title">Disfruta tu hogar</h3>
+          <p class="step__desc">Nuestro equipo dejará tu hogar impecable. Garantía de satisfacción.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ MISION Y VISION ═══════════════ -->
+  <section class="mision-vision" id="servicios">
+    <div class="container">
+      <div class="mision-vision__grid">
+        <div class="mv-card mv-card--light fade-in">
+          <div class="mv-card__icon">
+            <!-- Target icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <h3 class="mv-card__title">Nuestra Misión</h3>
+          <p class="mv-card__text">Brindar servicios de aseo doméstico de excelencia que mejoren la calidad de vida de nuestros clientes, ofreciendo soluciones personalizadas con un equipo profesional comprometido con la limpieza, el orden y la satisfacción total.</p>
+        </div>
+        <div class="mv-card mv-card--dark fade-in">
+          <div class="mv-card__icon">
+            <!-- Eye icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3 class="mv-card__title">Nuestra Visión</h3>
+          <p class="mv-card__text">Ser la empresa líder en servicios de aseo doméstico en Chile, reconocida por nuestra confiabilidad, profesionalismo y compromiso con el bienestar de nuestros clientes, expandiendo nuestra presencia a nivel nacional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PRECIOS ═══════════════ -->
+  <section class="precios" id="precios">
+    <div class="container">
+      <div style="text-align:center;" class="fade-in">
+        <h2 class="section-title">Planes y Precios</h2>
+        <p class="section-subtitle">Elige el plan que mejor se adapte a tus necesidades</p>
+      </div>
+      <div class="precios__grid">
+        <!-- Plan Básico -->
+        <div class="precio-card fade-in">
+          <h3 class="precio-card__name">Plan Básico</h3>
+          <div class="precio-card__price">$35.000</div>
+          <div class="precio-card__period">/visita</div>
+          <ul class="precio-card__features">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Limpieza general de pisos
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Baños y cocina
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Desempolvado de superficies
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Hasta 80m²
+            </li>
+          </ul>
+          <a href="https://wa.me/56947951646?text=Hola%20LimpioHogar%2C%20quiero%20contratar%20el%20Plan%20B%C3%A1sico%20de%20%2435.000" target="_blank" rel="noopener noreferrer" class="btn">Contratar</a>
+        </div>
+
+        <!-- Plan Premium -->
+        <div class="precio-card precio-card--featured fade-in">
+          <span class="precio-card__badge">Más Popular</span>
+          <h3 class="precio-card__name">Plan Premium</h3>
+          <div class="precio-card__price">$55.000</div>
+          <div class="precio-card__period">/visita</div>
+          <ul class="precio-card__features">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Todo del plan básico
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Limpieza profunda baños/cocina
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Limpieza de ventanas
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Aspirado de alfombras
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Hasta 120m²
+            </li>
+          </ul>
+          <a href="https://wa.me/56947951646?text=Hola%20LimpioHogar%2C%20quiero%20contratar%20el%20Plan%20Premium%20de%20%2455.000" target="_blank" rel="noopener noreferrer" class="btn btn--accent">Contratar</a>
+        </div>
+
+        <!-- Plan Deluxe -->
+        <div class="precio-card fade-in">
+          <h3 class="precio-card__name">Plan Deluxe</h3>
+          <div class="precio-card__price">$85.000</div>
+          <div class="precio-card__period">/visita</div>
+          <ul class="precio-card__features">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Todo del plan premium
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Limpieza de electrodomésticos
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Organización de espacios
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Limpieza de patios y terrazas
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Hasta 200m²
+            </li>
+          </ul>
+          <a href="https://wa.me/56947951646?text=Hola%20LimpioHogar%2C%20quiero%20contratar%20el%20Plan%20Deluxe%20de%20%2485.000" target="_blank" rel="noopener noreferrer" class="btn">Contratar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TRABAJA CON NOSOTROS ═══════════════ -->
+  <section class="trabaja" id="trabaja">
+    <div class="container">
+      <div style="text-align:center;" class="fade-in">
+        <h2 class="section-title">¿Quieres trabajar con nosotros?</h2>
+        <p class="section-subtitle">Únete a nuestro equipo de profesionales del aseo. Regístrate y te contactamos.</p>
+      </div>
+      <div class="trabaja__form-wrap fade-in">
+        <form id="trabaja-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="trabaja-nombre">Nombre</label>
+              <input type="text" id="trabaja-nombre" required placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="trabaja-apellido">Apellido</label>
+              <input type="text" id="trabaja-apellido" required placeholder="Tu apellido">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="trabaja-telefono">Teléfono</label>
+              <input type="tel" id="trabaja-telefono" required placeholder="+56 9 1234 5678">
+            </div>
+            <div class="form-group">
+              <label for="trabaja-email">Correo electrónico</label>
+              <input type="email" id="trabaja-email" required placeholder="tu@correo.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="trabaja-direccion">Dirección</label>
+            <input type="text" id="trabaja-direccion" required placeholder="Tu dirección">
+          </div>
+          <div class="form-group">
+            <label for="trabaja-mensaje">Mensaje (opcional)</label>
+            <textarea id="trabaja-mensaje" rows="4" placeholder="Cuéntanos sobre tu experiencia en servicios de aseo..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Quiero trabajar con ustedes</button>
+          <div id="trabaja-feedback" class="form-feedback"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACTO ═══════════════ -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div style="text-align:center;" class="fade-in">
+        <h2 class="section-title">Contáctanos</h2>
+        <p class="section-subtitle">Estamos aquí para ayudarte. Escríbenos y te responderemos pronto.</p>
+      </div>
+      <div class="contacto__grid">
+        <div class="contacto__info fade-in">
+          <div class="contacto__item">
+            <div class="contacto__item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            </div>
+            <div>
+              <h4>Teléfono</h4>
+              <p>+56 9 4795 1646</p>
+            </div>
+          </div>
+          <div class="contacto__item">
+            <div class="contacto__item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>contacto@limpiohogar.cl</p>
+            </div>
+          </div>
+          <div class="contacto__item">
+            <div class="contacto__item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Ubicación</h4>
+              <p>Santiago, Región Metropolitana, Chile</p>
+            </div>
+          </div>
+        </div>
+        <div class="contacto__form fade-in">
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-nombre">Nombre completo</label>
+              <input type="text" id="contact-nombre" required placeholder="Tu nombre completo">
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" required placeholder="tu@correo.com">
+            </div>
+            <div class="form-group">
+              <label for="contact-telefono">Teléfono (opcional)</label>
+              <input type="tel" id="contact-telefono" placeholder="+56 9 1234 5678">
+            </div>
+            <div class="form-group">
+              <label for="contact-mensaje">Mensaje</label>
+              <textarea id="contact-mensaje" rows="4" required placeholder="¿En qué podemos ayudarte?"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+            <div id="contact-feedback" class="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+              <path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/>
+            </svg>
+            <span>LimpioHogar</span>
+          </div>
+          <p class="footer__desc">Agencia de intermediación de servicios de aseo doméstico en Chile.</p>
+          <p class="footer__rut">RUT: 78.385.616-6</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#como-funciona">Cómo Funciona</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><span>Limpieza General</span></li>
+            <li><span>Limpieza Profunda</span></li>
+            <li><span>Mantención Regular</span></li>
+            <li><span>Servicio Personalizado</span></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><span>+56 9 4795 1646</span></li>
+            <li><span>contacto@limpiohogar.cl</span></li>
+            <li><span>Santiago, Chile</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LimpioHogar SpA. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════ WHATSAPP FLOATING ═══════════════ -->
+  <a href="https://wa.me/56947951646?text=Hola%20LimpioHogar%2C%20quiero%20solicitar%20informaci%C3%B3n" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/formspree.js"></script>
+  <script src="js/supabase.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
